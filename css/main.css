@@ -1,0 +1,46 @@
+*. {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
+}
+h3 {
+    display: flex;
+    color: white;
+}
+
+h3 span {
+    background-color: #93C47D;
+    padding: 2px 20px;
+}
+
+.form {
+    color: #93C47D;
+}
+
+input {
+border: solid #93C47D 2px;
+width: 175px;
+}
+
+button {
+    border: solid #93C47D 2px;
+    color: #93C47D;
+}
+li {
+    list-style: none;
+    color: #FF9902;
+}
+
+ .delete{
+    background-color: #E06666;
+    color: white;
+    margin: 10px;
+    border: none;
+    height: 20px;
+}
